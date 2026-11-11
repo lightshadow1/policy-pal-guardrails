@@ -1,0 +1,2695 @@
+{
+ "configs": [
+  "regex",
+  "jev-r1",
+  "gliner-r1"
+ ],
+ "week1": {
+  "regex": {
+   "n": 1036,
+   "accuracy": 0.2635135135135135,
+   "accuracy_ci": [
+    0.23648648648648649,
+    0.2905405405405405
+   ],
+   "macro_f1": 0.1509255930667411,
+   "recall": {
+    "in_scope": 0.991304347826087,
+    "irrelevant": 0.05656565656565657,
+    "not_allowed": 0.0648854961832061,
+    "ambiguous": 0.0
+   },
+   "precision": {
+    "in_scope": 0.23336745138178097,
+    "irrelevant": 0.6829268292682927,
+    "not_allowed": 0.9444444444444444,
+    "ambiguous": null
+   },
+   "false_refusal": 0.008695652173913044,
+   "false_refusal_covered": 0.0,
+   "false_refusal_uncovered": 0.013605442176870748,
+   "topic_recall": {
+    "legal": 0.06060606060606061,
+    "medical": 0.058823529411764705,
+    "investment": 0.05405405405405406,
+    "privacy": 0.02040816326530612,
+    "harmful": 0.0625,
+    "prompt_attack": 0.16666666666666666
+   },
+   "topic_exact": {
+    "legal": 0.06060606060606061,
+    "medical": 0.058823529411764705,
+    "investment": 0.05405405405405406,
+    "privacy": 0.0,
+    "harmful": 0.0,
+    "prompt_attack": 0.16666666666666666
+   },
+   "pair_accuracy": 0.1,
+   "confusion": {
+    "in_scope": {
+     "in_scope": 228,
+     "irrelevant": 2,
+     "not_allowed": 0,
+     "ambiguous": 0
+    },
+    "irrelevant": {
+     "in_scope": 466,
+     "irrelevant": 28,
+     "not_allowed": 1,
+     "ambiguous": 0
+    },
+    "not_allowed": {
+     "in_scope": 235,
+     "irrelevant": 10,
+     "not_allowed": 17,
+     "ambiguous": 0
+    },
+    "ambiguous": {
+     "in_scope": 48,
+     "irrelevant": 1,
+     "not_allowed": 0,
+     "ambiguous": 0
+    }
+   }
+  },
+  "jev-r1": {
+   "n": 1036,
+   "accuracy": 0.33494208494208494,
+   "accuracy_ci": [
+    0.305984555984556,
+    0.36486486486486486
+   ],
+   "macro_f1": 0.24924804511520174,
+   "recall": {
+    "in_scope": 0.9695652173913043,
+    "irrelevant": 0.05454545454545454,
+    "not_allowed": 0.3702290076335878,
+    "ambiguous": 0.0
+   },
+   "precision": {
+    "in_scope": 0.25840092699884126,
+    "irrelevant": 0.7297297297297297,
+    "not_allowed": 0.7132352941176471,
+    "ambiguous": null
+   },
+   "false_refusal": 0.030434782608695653,
+   "false_refusal_covered": 0.04819277108433735,
+   "false_refusal_uncovered": 0.02040816326530612,
+   "topic_recall": {
+    "legal": 0.696969696969697,
+    "medical": 0.6470588235294118,
+    "investment": 0.8648648648648649,
+    "privacy": 0.02040816326530612,
+    "harmful": 0.13541666666666666,
+    "prompt_attack": 0.5666666666666667
+   },
+   "topic_exact": {
+    "legal": 0.696969696969697,
+    "medical": 0.6470588235294118,
+    "investment": 0.8108108108108109,
+    "privacy": 0.0,
+    "harmful": 0.0,
+    "prompt_attack": 0.5666666666666667
+   },
+   "pair_accuracy": 0.5333333333333333,
+   "confusion": {
+    "in_scope": {
+     "in_scope": 223,
+     "irrelevant": 2,
+     "not_allowed": 5,
+     "ambiguous": 0
+    },
+    "irrelevant": {
+     "in_scope": 434,
+     "irrelevant": 27,
+     "not_allowed": 34,
+     "ambiguous": 0
+    },
+    "not_allowed": {
+     "in_scope": 158,
+     "irrelevant": 7,
+     "not_allowed": 97,
+     "ambiguous": 0
+    },
+    "ambiguous": {
+     "in_scope": 48,
+     "irrelevant": 1,
+     "not_allowed": 0,
+     "ambiguous": 0
+    }
+   }
+  },
+  "gliner-r1": {
+   "n": 1036,
+   "accuracy": 0.23262548262548263,
+   "accuracy_ci": [
+    0.20656370656370657,
+    0.25868725868725867
+   ],
+   "macro_f1": 0.10556959253123807,
+   "recall": {
+    "in_scope": 0.017391304347826087,
+    "irrelevant": 0.00404040404040404,
+    "not_allowed": 0.8969465648854962,
+    "ambiguous": 0.0
+   },
+   "precision": {
+    "in_scope": 0.045454545454545456,
+    "irrelevant": 1.0,
+    "not_allowed": 0.24841437632135308,
+    "ambiguous": null
+   },
+   "false_refusal": 0.9826086956521739,
+   "false_refusal_covered": 0.9759036144578314,
+   "false_refusal_uncovered": 0.9863945578231292,
+   "topic_recall": {
+    "legal": 1.0,
+    "medical": 0.8235294117647058,
+    "investment": 1.0,
+    "privacy": 0.7755102040816326,
+    "harmful": 0.8854166666666666,
+    "prompt_attack": 0.9333333333333333
+   },
+   "topic_exact": {
+    "legal": 0.8484848484848485,
+    "medical": 0.6470588235294118,
+    "investment": 0.9459459459459459,
+    "privacy": 0.0,
+    "harmful": 0.0,
+    "prompt_attack": 0.5333333333333333
+   },
+   "pair_accuracy": 0.0,
+   "confusion": {
+    "in_scope": {
+     "in_scope": 4,
+     "irrelevant": 0,
+     "not_allowed": 226,
+     "ambiguous": 0
+    },
+    "irrelevant": {
+     "in_scope": 54,
+     "irrelevant": 2,
+     "not_allowed": 439,
+     "ambiguous": 0
+    },
+    "not_allowed": {
+     "in_scope": 27,
+     "irrelevant": 0,
+     "not_allowed": 235,
+     "ambiguous": 0
+    },
+    "ambiguous": {
+     "in_scope": 3,
+     "irrelevant": 0,
+     "not_allowed": 46,
+     "ambiguous": 0
+    }
+   }
+  }
+ },
+ "week2": {
+  "regex": {
+   "n": 1055,
+   "accuracy": 0.26540284360189575,
+   "accuracy_ci": [
+    0.23886255924170616,
+    0.2919431279620853
+   ],
+   "macro_f1": 0.14940929312174914,
+   "recall": {
+    "in_scope": 0.9871794871794872,
+    "irrelevant": 0.073558648111332,
+    "not_allowed": 0.045454545454545456,
+    "ambiguous": 0.0
+   },
+   "precision": {
+    "in_scope": 0.23451776649746192,
+    "irrelevant": 0.6727272727272727,
+    "not_allowed": 0.8,
+    "ambiguous": null
+   },
+   "false_refusal": 0.01282051282051282,
+   "false_refusal_covered": 0.013513513513513514,
+   "false_refusal_uncovered": 0.0125,
+   "topic_recall": {
+    "legal": 0.0,
+    "medical": 0.0,
+    "investment": 0.02564102564102564,
+    "privacy": 0.0,
+    "harmful": 0.044444444444444446,
+    "prompt_attack": 0.20588235294117646
+   },
+   "topic_exact": {
+    "legal": 0.0,
+    "medical": 0.0,
+    "investment": 0.02564102564102564,
+    "privacy": 0.0,
+    "harmful": 0.0,
+    "prompt_attack": 0.20588235294117646
+   },
+   "pair_accuracy": 0.0,
+   "confusion": {
+    "in_scope": {
+     "in_scope": 231,
+     "irrelevant": 3,
+     "not_allowed": 0,
+     "ambiguous": 0
+    },
+    "irrelevant": {
+     "in_scope": 463,
+     "irrelevant": 37,
+     "not_allowed": 3,
+     "ambiguous": 0
+    },
+    "not_allowed": {
+     "in_scope": 240,
+     "irrelevant": 12,
+     "not_allowed": 12,
+     "ambiguous": 0
+    },
+    "ambiguous": {
+     "in_scope": 51,
+     "irrelevant": 3,
+     "not_allowed": 0,
+     "ambiguous": 0
+    }
+   }
+  },
+  "jev-r1": {
+   "n": 1055,
+   "accuracy": 0.33080568720379144,
+   "accuracy_ci": [
+    0.3014218009478673,
+    0.3582938388625592
+   ],
+   "macro_f1": 0.2478895725442526,
+   "recall": {
+    "in_scope": 0.9572649572649573,
+    "irrelevant": 0.073558648111332,
+    "not_allowed": 0.3333333333333333,
+    "ambiguous": 0.0
+   },
+   "precision": {
+    "in_scope": 0.25310734463276835,
+    "irrelevant": 0.7551020408163265,
+    "not_allowed": 0.7272727272727273,
+    "ambiguous": null
+   },
+   "false_refusal": 0.042735042735042736,
+   "false_refusal_covered": 0.05405405405405406,
+   "false_refusal_uncovered": 0.0375,
+   "topic_recall": {
+    "legal": 0.6296296296296297,
+    "medical": 0.75,
+    "investment": 0.7692307692307693,
+    "privacy": 0.0,
+    "harmful": 0.08888888888888889,
+    "prompt_attack": 0.5294117647058824
+   },
+   "topic_exact": {
+    "legal": 0.6296296296296297,
+    "medical": 0.75,
+    "investment": 0.7692307692307693,
+    "privacy": 0.0,
+    "harmful": 0.0,
+    "prompt_attack": 0.5294117647058824
+   },
+   "pair_accuracy": 0.4666666666666667,
+   "confusion": {
+    "in_scope": {
+     "in_scope": 224,
+     "irrelevant": 3,
+     "not_allowed": 7,
+     "ambiguous": 0
+    },
+    "irrelevant": {
+     "in_scope": 440,
+     "irrelevant": 37,
+     "not_allowed": 26,
+     "ambiguous": 0
+    },
+    "not_allowed": {
+     "in_scope": 170,
+     "irrelevant": 6,
+     "not_allowed": 88,
+     "ambiguous": 0
+    },
+    "ambiguous": {
+     "in_scope": 51,
+     "irrelevant": 3,
+     "not_allowed": 0,
+     "ambiguous": 0
+    }
+   }
+  },
+  "gliner-r1": {
+   "n": 1055,
+   "accuracy": 0.2161137440758294,
+   "accuracy_ci": [
+    0.19146919431279621,
+    0.24075829383886255
+   ],
+   "macro_f1": 0.09671768768376826,
+   "recall": {
+    "in_scope": 0.004273504273504274,
+    "irrelevant": 0.007952286282306162,
+    "not_allowed": 0.8446969696969697,
+    "ambiguous": 0.0
+   },
+   "precision": {
+    "in_scope": 0.010752688172043012,
+    "irrelevant": 1.0,
+    "not_allowed": 0.23277661795407098,
+    "ambiguous": null
+   },
+   "false_refusal": 0.9957264957264957,
+   "false_refusal_covered": 0.9864864864864865,
+   "false_refusal_uncovered": 1.0,
+   "topic_recall": {
+    "legal": 1.0,
+    "medical": 0.9,
+    "investment": 1.0,
+    "privacy": 0.6481481481481481,
+    "harmful": 0.8666666666666667,
+    "prompt_attack": 0.7647058823529411
+   },
+   "topic_exact": {
+    "legal": 0.8148148148148148,
+    "medical": 0.75,
+    "investment": 1.0,
+    "privacy": 0.0,
+    "harmful": 0.0,
+    "prompt_attack": 0.35294117647058826
+   },
+   "pair_accuracy": 0.0,
+   "confusion": {
+    "in_scope": {
+     "in_scope": 1,
+     "irrelevant": 0,
+     "not_allowed": 233,
+     "ambiguous": 0
+    },
+    "irrelevant": {
+     "in_scope": 46,
+     "irrelevant": 4,
+     "not_allowed": 453,
+     "ambiguous": 0
+    },
+    "not_allowed": {
+     "in_scope": 41,
+     "irrelevant": 0,
+     "not_allowed": 223,
+     "ambiguous": 0
+    },
+    "ambiguous": {
+     "in_scope": 5,
+     "irrelevant": 0,
+     "not_allowed": 49,
+     "ambiguous": 0
+    }
+   }
+  }
+ },
+ "per_source": {
+  "regex": {
+   "aegis": {
+    "n": 175,
+    "accuracy": 0.06285714285714286,
+    "accuracy_ci": [
+     0.02857142857142857,
+     0.10285714285714286
+    ],
+    "macro_f1": 0.08095238095238094,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.09722222222222222,
+     "not_allowed": 0.04081632653061224,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": 0.5833333333333334,
+     "not_allowed": 0.5714285714285714,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "privacy": 0.0,
+     "harmful": 0.044444444444444446
+    },
+    "topic_exact": {
+     "privacy": 0.0,
+     "harmful": 0.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 62,
+      "irrelevant": 7,
+      "not_allowed": 3,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 90,
+      "irrelevant": 4,
+      "not_allowed": 4,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 4,
+      "irrelevant": 1,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "clinc": {
+    "n": 397,
+    "accuracy": 0.4256926952141058,
+    "accuracy_ci": [
+     0.37531486146095716,
+     0.47103274559193953
+    ],
+    "macro_f1": 0.16193848676806327,
+    "recall": {
+     "in_scope": 0.9878787878787879,
+     "irrelevant": 0.028169014084507043,
+     "not_allowed": 0.0,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.4255874673629243,
+     "irrelevant": 0.42857142857142855,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "false_refusal": 0.012121212121212121,
+    "false_refusal_covered": 0.0,
+    "false_refusal_uncovered": 0.012987012987012988,
+    "topic_recall": {
+     "medical": 0.0,
+     "investment": 0.0,
+     "privacy": 0.0
+    },
+    "topic_exact": {
+     "medical": 0.0,
+     "investment": 0.0,
+     "privacy": 0.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 163,
+      "irrelevant": 2,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 207,
+      "irrelevant": 6,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 11,
+      "irrelevant": 6,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 2,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "coconot": {
+    "n": 40,
+    "accuracy": 0.0,
+    "accuracy_ci": [
+     0.0,
+     0.0
+    ],
+    "macro_f1": 0.0,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": null,
+     "not_allowed": 0.0,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "privacy": 0.0
+    },
+    "topic_exact": {
+     "privacy": 0.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 40,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "deepset": {
+    "n": 31,
+    "accuracy": 0.12903225806451613,
+    "accuracy_ci": [
+     0.03225806451612903,
+     0.25806451612903225
+    ],
+    "macro_f1": 0.11764705882352941,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": 0.13333333333333333,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": 0.0,
+     "not_allowed": 1.0,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "prompt_attack": 0.13333333333333333
+    },
+    "topic_exact": {
+     "prompt_attack": 0.13333333333333333
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 1,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 24,
+      "irrelevant": 2,
+      "not_allowed": 4,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "pairs": {
+    "n": 60,
+    "accuracy": 0.5,
+    "accuracy_ci": [
+     0.38333333333333336,
+     0.6333333333333333
+    ],
+    "macro_f1": 0.2222222222222222,
+    "recall": {
+     "in_scope": 1.0,
+     "irrelevant": 0.0,
+     "not_allowed": 0.0,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.5,
+     "irrelevant": null,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "false_refusal": 0.0,
+    "false_refusal_covered": 0.0,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "legal": 0.0,
+     "medical": 0.0,
+     "investment": 0.0,
+     "privacy": 0.0,
+     "prompt_attack": 0.0
+    },
+    "topic_exact": {
+     "legal": 0.0,
+     "medical": 0.0,
+     "investment": 0.0,
+     "privacy": 0.0,
+     "prompt_attack": 0.0
+    },
+    "pair_accuracy": 0.0,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 30,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 9,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 21,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "policypal": {
+    "n": 42,
+    "accuracy": 0.9047619047619048,
+    "accuracy_ci": [
+     0.8095238095238095,
+     0.9761904761904762
+    ],
+    "macro_f1": 0.6424242424242425,
+    "recall": {
+     "in_scope": 0.9696969696969697,
+     "irrelevant": 0.75,
+     "not_allowed": 1.0,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.9696969696969697,
+     "irrelevant": 0.5,
+     "not_allowed": 1.0,
+     "ambiguous": null
+    },
+    "false_refusal": 0.030303030303030304,
+    "false_refusal_covered": 0.030303030303030304,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "prompt_attack": 1.0
+    },
+    "topic_exact": {
+     "prompt_attack": 1.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 32,
+      "irrelevant": 1,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 1,
+      "irrelevant": 3,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 3,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 2,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:askubuntu": {
+    "n": 15,
+    "accuracy": 0.0,
+    "accuracy_ci": [
+     0.0,
+     0.0
+    ],
+    "macro_f1": 0.0,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {},
+    "topic_exact": {},
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 15,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:health": {
+    "n": 51,
+    "accuracy": 0.0,
+    "accuracy_ci": [
+     0.0,
+     0.0
+    ],
+    "macro_f1": 0.0,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": 0.0,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "medical": 0.0
+    },
+    "topic_exact": {
+     "medical": 0.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 33,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 15,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 3,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:law": {
+    "n": 51,
+    "accuracy": 0.0,
+    "accuracy_ci": [
+     0.0,
+     0.0
+    ],
+    "macro_f1": 0.0,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": 0.0,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "legal": 0.0
+    },
+    "topic_exact": {
+     "legal": 0.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 20,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 20,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 11,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:money": {
+    "n": 51,
+    "accuracy": 0.0196078431372549,
+    "accuracy_ci": [
+     0.0,
+     0.058823529411764705
+    ],
+    "macro_f1": 0.03333333333333333,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": 0.05263157894736842,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": 1.0,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "investment": 0.05263157894736842
+    },
+    "topic_exact": {
+     "investment": 0.05263157894736842
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 27,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 18,
+      "irrelevant": 0,
+      "not_allowed": 1,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 5,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:superuser": {
+    "n": 15,
+    "accuracy": 0.06666666666666667,
+    "accuracy_ci": [
+     0.0,
+     0.2
+    ],
+    "macro_f1": 0.125,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.06666666666666667,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": 1.0,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {},
+    "topic_exact": {},
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 14,
+      "irrelevant": 1,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:workplace": {
+    "n": 51,
+    "accuracy": 0.09803921568627451,
+    "accuracy_ci": [
+     0.0196078431372549,
+     0.17647058823529413
+    ],
+    "macro_f1": 0.04464285714285714,
+    "recall": {
+     "in_scope": 1.0,
+     "irrelevant": 0.0,
+     "not_allowed": 0.0,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.09803921568627451,
+     "irrelevant": null,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "false_refusal": 0.0,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": 0.0,
+    "topic_recall": {
+     "legal": 0.0
+    },
+    "topic_exact": {
+     "legal": 0.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 5,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 19,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 1,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 26,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "xstest": {
+    "n": 76,
+    "accuracy": 0.27631578947368424,
+    "accuracy_ci": [
+     0.18421052631578946,
+     0.3815789473684211
+    ],
+    "macro_f1": 0.2280701754385965,
+    "recall": {
+     "in_scope": 1.0,
+     "irrelevant": 0.26666666666666666,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.017857142857142856,
+     "irrelevant": 1.0,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "false_refusal": 0.0,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": 0.0,
+    "topic_recall": {},
+    "topic_exact": {},
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 1,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 55,
+      "irrelevant": 20,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   }
+  },
+  "jev-r1": {
+   "aegis": {
+    "n": 175,
+    "accuracy": 0.08571428571428572,
+    "accuracy_ci": [
+     0.045714285714285714,
+     0.13142857142857142
+    ],
+    "macro_f1": 0.10317460317460318,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.09722222222222222,
+     "not_allowed": 0.08163265306122448,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": 0.5833333333333334,
+     "not_allowed": 0.5714285714285714,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "privacy": 0.0,
+     "harmful": 0.08888888888888889
+    },
+    "topic_exact": {
+     "privacy": 0.0,
+     "harmful": 0.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 59,
+      "irrelevant": 7,
+      "not_allowed": 6,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 86,
+      "irrelevant": 4,
+      "not_allowed": 8,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 4,
+      "irrelevant": 1,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "clinc": {
+    "n": 397,
+    "accuracy": 0.4508816120906801,
+    "accuracy_ci": [
+     0.40302267002518893,
+     0.4987405541561713
+    ],
+    "macro_f1": 0.32374510701506903,
+    "recall": {
+     "in_scope": 0.9636363636363636,
+     "irrelevant": 0.028169014084507043,
+     "not_allowed": 0.8235294117647058,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.4404432132963989,
+     "irrelevant": 0.6666666666666666,
+     "not_allowed": 0.5185185185185185,
+     "ambiguous": null
+    },
+    "false_refusal": 0.03636363636363636,
+    "false_refusal_covered": 0.0,
+    "false_refusal_uncovered": 0.03896103896103896,
+    "topic_recall": {
+     "medical": 0.0,
+     "investment": 0.9333333333333333,
+     "privacy": 0.0
+    },
+    "topic_exact": {
+     "medical": 0.0,
+     "investment": 0.9333333333333333,
+     "privacy": 0.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 159,
+      "irrelevant": 2,
+      "not_allowed": 4,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 198,
+      "irrelevant": 6,
+      "not_allowed": 9,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 2,
+      "irrelevant": 1,
+      "not_allowed": 14,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 2,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "coconot": {
+    "n": 40,
+    "accuracy": 0.0,
+    "accuracy_ci": [
+     0.0,
+     0.0
+    ],
+    "macro_f1": 0.0,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": null,
+     "not_allowed": 0.0,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "privacy": 0.0
+    },
+    "topic_exact": {
+     "privacy": 0.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 40,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "deepset": {
+    "n": 31,
+    "accuracy": 0.45161290322580644,
+    "accuracy_ci": [
+     0.2903225806451613,
+     0.6129032258064516
+    ],
+    "macro_f1": 0.3181818181818182,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": 0.4666666666666667,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": 0.0,
+     "not_allowed": 1.0,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "prompt_attack": 0.4666666666666667
+    },
+    "topic_exact": {
+     "prompt_attack": 0.4666666666666667
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 1,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 15,
+      "irrelevant": 1,
+      "not_allowed": 14,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "pairs": {
+    "n": 60,
+    "accuracy": 0.7333333333333333,
+    "accuracy_ci": [
+     0.6166666666666667,
+     0.8333333333333334
+    ],
+    "macro_f1": 0.5327635327635328,
+    "recall": {
+     "in_scope": 0.9333333333333333,
+     "irrelevant": 0.0,
+     "not_allowed": 0.7619047619047619,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.6666666666666666,
+     "irrelevant": null,
+     "not_allowed": 0.8888888888888888,
+     "ambiguous": null
+    },
+    "false_refusal": 0.06666666666666667,
+    "false_refusal_covered": 0.06666666666666667,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "legal": 1.0,
+     "medical": 1.0,
+     "investment": 1.0,
+     "privacy": 0.0,
+     "prompt_attack": 1.0
+    },
+    "topic_exact": {
+     "legal": 1.0,
+     "medical": 1.0,
+     "investment": 1.0,
+     "privacy": 0.0,
+     "prompt_attack": 1.0
+    },
+    "pair_accuracy": 0.4666666666666667,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 28,
+      "irrelevant": 0,
+      "not_allowed": 2,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 9,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 5,
+      "irrelevant": 0,
+      "not_allowed": 16,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "policypal": {
+    "n": 42,
+    "accuracy": 0.8809523809523809,
+    "accuracy_ci": [
+     0.7857142857142857,
+     0.9761904761904762
+    ],
+    "macro_f1": 0.6027472527472527,
+    "recall": {
+     "in_scope": 0.9393939393939394,
+     "irrelevant": 0.75,
+     "not_allowed": 1.0,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.96875,
+     "irrelevant": 0.5,
+     "not_allowed": 0.75,
+     "ambiguous": null
+    },
+    "false_refusal": 0.06060606060606061,
+    "false_refusal_covered": 0.06060606060606061,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "prompt_attack": 1.0
+    },
+    "topic_exact": {
+     "prompt_attack": 1.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 31,
+      "irrelevant": 1,
+      "not_allowed": 1,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 1,
+      "irrelevant": 3,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 3,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 2,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:askubuntu": {
+    "n": 15,
+    "accuracy": 0.0,
+    "accuracy_ci": [
+     0.0,
+     0.0
+    ],
+    "macro_f1": 0.0,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {},
+    "topic_exact": {},
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 15,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:health": {
+    "n": 51,
+    "accuracy": 0.21568627450980393,
+    "accuracy_ci": [
+     0.11764705882352941,
+     0.3333333333333333
+    ],
+    "macro_f1": 0.24444444444444444,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": 0.7333333333333333,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": 0.7333333333333333,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "medical": 0.7333333333333333
+    },
+    "topic_exact": {
+     "medical": 0.7333333333333333
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 29,
+      "irrelevant": 0,
+      "not_allowed": 4,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 4,
+      "irrelevant": 0,
+      "not_allowed": 11,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 3,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:law": {
+    "n": 51,
+    "accuracy": 0.19607843137254902,
+    "accuracy_ci": [
+     0.09803921568627451,
+     0.3137254901960784
+    ],
+    "macro_f1": 0.2222222222222222,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": 0.5,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": 1.0,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "legal": 0.5
+    },
+    "topic_exact": {
+     "legal": 0.5
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 20,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 10,
+      "irrelevant": 0,
+      "not_allowed": 10,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 11,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:money": {
+    "n": 51,
+    "accuracy": 0.21568627450980393,
+    "accuracy_ci": [
+     0.09803921568627451,
+     0.3333333333333333
+    ],
+    "macro_f1": 0.20370370370370375,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": 0.5789473684210527,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": 0.6470588235294118,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "investment": 0.5789473684210527
+    },
+    "topic_exact": {
+     "investment": 0.5789473684210527
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 21,
+      "irrelevant": 0,
+      "not_allowed": 6,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 8,
+      "irrelevant": 0,
+      "not_allowed": 11,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 5,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:superuser": {
+    "n": 15,
+    "accuracy": 0.06666666666666667,
+    "accuracy_ci": [
+     0.0,
+     0.2
+    ],
+    "macro_f1": 0.125,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.06666666666666667,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": 1.0,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {},
+    "topic_exact": {},
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 14,
+      "irrelevant": 1,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:workplace": {
+    "n": 51,
+    "accuracy": 0.11764705882352941,
+    "accuracy_ci": [
+     0.0392156862745098,
+     0.21568627450980393
+    ],
+    "macro_f1": 0.29545454545454547,
+    "recall": {
+     "in_scope": 1.0,
+     "irrelevant": 0.0,
+     "not_allowed": 1.0,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.1,
+     "irrelevant": null,
+     "not_allowed": 1.0,
+     "ambiguous": null
+    },
+    "false_refusal": 0.0,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": 0.0,
+    "topic_recall": {
+     "legal": 1.0
+    },
+    "topic_exact": {
+     "legal": 1.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 5,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 19,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 1,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 26,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "xstest": {
+    "n": 76,
+    "accuracy": 0.27631578947368424,
+    "accuracy_ci": [
+     0.18421052631578946,
+     0.3815789473684211
+    ],
+    "macro_f1": 0.22838345864661655,
+    "recall": {
+     "in_scope": 1.0,
+     "irrelevant": 0.26666666666666666,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.01818181818181818,
+     "irrelevant": 1.0,
+     "not_allowed": 0.0,
+     "ambiguous": null
+    },
+    "false_refusal": 0.0,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": 0.0,
+    "topic_recall": {},
+    "topic_exact": {},
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 1,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 54,
+      "irrelevant": 20,
+      "not_allowed": 1,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   }
+  },
+  "gliner-r1": {
+   "aegis": {
+    "n": 175,
+    "accuracy": 0.4857142857142857,
+    "accuracy_ci": [
+     0.4112857142857143,
+     0.5544285714285706
+    ],
+    "macro_f1": 0.23403201848489852,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.013888888888888888,
+     "not_allowed": 0.8571428571428571,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": 1.0,
+     "not_allowed": 0.5562913907284768,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "privacy": 0.75,
+     "harmful": 0.8666666666666667
+    },
+    "topic_exact": {
+     "privacy": 0.0,
+     "harmful": 0.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 9,
+      "irrelevant": 1,
+      "not_allowed": 62,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 14,
+      "irrelevant": 0,
+      "not_allowed": 84,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 5,
+      "ambiguous": 0
+     }
+    }
+   },
+   "clinc": {
+    "n": 397,
+    "accuracy": 0.042821158690176324,
+    "accuracy_ci": [
+     0.02518891687657431,
+     0.06303526448362685
+    ],
+    "macro_f1": 0.02119700748129676,
+    "recall": {
+     "in_scope": 0.0,
+     "irrelevant": 0.0,
+     "not_allowed": 1.0,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": 0.044270833333333336,
+     "ambiguous": null
+    },
+    "false_refusal": 1.0,
+    "false_refusal_covered": 1.0,
+    "false_refusal_uncovered": 1.0,
+    "topic_recall": {
+     "medical": 1.0,
+     "investment": 1.0,
+     "privacy": 1.0
+    },
+    "topic_exact": {
+     "medical": 0.0,
+     "investment": 1.0,
+     "privacy": 0.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 165,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 13,
+      "irrelevant": 0,
+      "not_allowed": 200,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 17,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 2,
+      "ambiguous": 0
+     }
+    }
+   },
+   "coconot": {
+    "n": 40,
+    "accuracy": 0.625,
+    "accuracy_ci": [
+     0.475,
+     0.775
+    ],
+    "macro_f1": 0.7692307692307693,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": null,
+     "not_allowed": 0.625,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": 1.0,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "privacy": 0.625
+    },
+    "topic_exact": {
+     "privacy": 0.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 15,
+      "irrelevant": 0,
+      "not_allowed": 25,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "deepset": {
+    "n": 31,
+    "accuracy": 0.7096774193548387,
+    "accuracy_ci": [
+     0.5483870967741935,
+     0.8709677419354839
+    ],
+    "macro_f1": 0.423076923076923,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": 0.7333333333333333,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": 1.0,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "prompt_attack": 0.7333333333333333
+    },
+    "topic_exact": {
+     "prompt_attack": 0.3
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 1,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 8,
+      "irrelevant": 0,
+      "not_allowed": 22,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "pairs": {
+    "n": 60,
+    "accuracy": 0.3333333333333333,
+    "accuracy_ci": [
+     0.21666666666666667,
+     0.45
+    ],
+    "macro_f1": 0.18259518259518256,
+    "recall": {
+     "in_scope": 0.03333333333333333,
+     "irrelevant": 0.0,
+     "not_allowed": 0.9047619047619048,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.3333333333333333,
+     "irrelevant": null,
+     "not_allowed": 0.3333333333333333,
+     "ambiguous": null
+    },
+    "false_refusal": 0.9666666666666667,
+    "false_refusal_covered": 0.9666666666666667,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "legal": 1.0,
+     "medical": 1.0,
+     "investment": 1.0,
+     "privacy": 0.6,
+     "prompt_attack": 1.0
+    },
+    "topic_exact": {
+     "legal": 1.0,
+     "medical": 1.0,
+     "investment": 1.0,
+     "privacy": 0.0,
+     "prompt_attack": 1.0
+    },
+    "pair_accuracy": 0.0,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 1,
+      "irrelevant": 0,
+      "not_allowed": 29,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 9,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 2,
+      "irrelevant": 0,
+      "not_allowed": 19,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "policypal": {
+    "n": 42,
+    "accuracy": 0.09523809523809523,
+    "accuracy_ci": [
+     0.023809523809523808,
+     0.19047619047619047
+    ],
+    "macro_f1": 0.1340909090909091,
+    "recall": {
+     "in_scope": 0.0,
+     "irrelevant": 0.25,
+     "not_allowed": 1.0,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": null,
+     "irrelevant": 1.0,
+     "not_allowed": 0.07317073170731707,
+     "ambiguous": null
+    },
+    "false_refusal": 1.0,
+    "false_refusal_covered": 1.0,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "prompt_attack": 1.0
+    },
+    "topic_exact": {
+     "prompt_attack": 0.6666666666666666
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 33,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 0,
+      "irrelevant": 1,
+      "not_allowed": 3,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 3,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 2,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:askubuntu": {
+    "n": 15,
+    "accuracy": 0.0,
+    "accuracy_ci": [
+     0.0,
+     0.0
+    ],
+    "macro_f1": 0.0,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": 0.0,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {},
+    "topic_exact": {},
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 8,
+      "irrelevant": 0,
+      "not_allowed": 7,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:health": {
+    "n": 51,
+    "accuracy": 0.2549019607843137,
+    "accuracy_ci": [
+     0.13725490196078433,
+     0.39215686274509803
+    ],
+    "macro_f1": 0.14689265536723164,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": 0.8666666666666667,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": 0.29545454545454547,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "medical": 0.8666666666666667
+    },
+    "topic_exact": {
+     "medical": 0.7333333333333333
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 4,
+      "irrelevant": 0,
+      "not_allowed": 29,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 2,
+      "irrelevant": 0,
+      "not_allowed": 13,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 1,
+      "irrelevant": 0,
+      "not_allowed": 2,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:law": {
+    "n": 51,
+    "accuracy": 0.39215686274509803,
+    "accuracy_ci": [
+     0.2549019607843137,
+     0.5294117647058824
+    ],
+    "macro_f1": 0.18779342723004697,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": 1.0,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": null,
+     "irrelevant": null,
+     "not_allowed": 0.39215686274509803,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "legal": 1.0
+    },
+    "topic_exact": {
+     "legal": 0.75
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 20,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 20,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 11,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:money": {
+    "n": 51,
+    "accuracy": 0.37254901960784315,
+    "accuracy_ci": [
+     0.23529411764705882,
+     0.5098039215686274
+    ],
+    "macro_f1": 0.18095238095238095,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": 1.0,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": null,
+     "irrelevant": null,
+     "not_allowed": 0.37254901960784315,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {
+     "investment": 1.0
+    },
+    "topic_exact": {
+     "investment": 1.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 27,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 19,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 5,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:superuser": {
+    "n": 15,
+    "accuracy": 0.0,
+    "accuracy_ci": [
+     0.0,
+     0.0
+    ],
+    "macro_f1": 0.0,
+    "recall": {
+     "in_scope": null,
+     "irrelevant": 0.0,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": 0.0,
+     "ambiguous": null
+    },
+    "false_refusal": null,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": null,
+    "topic_recall": {},
+    "topic_exact": {},
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 4,
+      "irrelevant": 0,
+      "not_allowed": 11,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   },
+   "se:workplace": {
+    "n": 51,
+    "accuracy": 0.0196078431372549,
+    "accuracy_ci": [
+     0.0,
+     0.058823529411764705
+    ],
+    "macro_f1": 0.010869565217391306,
+    "recall": {
+     "in_scope": 0.0,
+     "irrelevant": 0.0,
+     "not_allowed": 1.0,
+     "ambiguous": 0.0
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": null,
+     "not_allowed": 0.022222222222222223,
+     "ambiguous": null
+    },
+    "false_refusal": 1.0,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": 1.0,
+    "topic_recall": {
+     "legal": 1.0
+    },
+    "topic_exact": {
+     "legal": 1.0
+    },
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 5,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 2,
+      "irrelevant": 0,
+      "not_allowed": 17,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 1,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 4,
+      "irrelevant": 0,
+      "not_allowed": 22,
+      "ambiguous": 0
+     }
+    }
+   },
+   "xstest": {
+    "n": 76,
+    "accuracy": 0.02631578947368421,
+    "accuracy_ci": [
+     0.0,
+     0.06578947368421052
+    ],
+    "macro_f1": 0.025974025974025976,
+    "recall": {
+     "in_scope": 0.0,
+     "irrelevant": 0.02666666666666667,
+     "not_allowed": null,
+     "ambiguous": null
+    },
+    "precision": {
+     "in_scope": 0.0,
+     "irrelevant": 1.0,
+     "not_allowed": 0.0,
+     "ambiguous": null
+    },
+    "false_refusal": 1.0,
+    "false_refusal_covered": null,
+    "false_refusal_uncovered": 1.0,
+    "topic_recall": {},
+    "topic_exact": {},
+    "pair_accuracy": null,
+    "confusion": {
+     "in_scope": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 1,
+      "ambiguous": 0
+     },
+     "irrelevant": {
+      "in_scope": 5,
+      "irrelevant": 2,
+      "not_allowed": 68,
+      "ambiguous": 0
+     },
+     "not_allowed": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     },
+     "ambiguous": {
+      "in_scope": 0,
+      "irrelevant": 0,
+      "not_allowed": 0,
+      "ambiguous": 0
+     }
+    }
+   }
+  }
+ },
+ "usage": {
+  "regex": {
+   "cost_per_1k": 0.0,
+   "p50_ms": 0.18537500000093132,
+   "p95_ms": 0.6817495013820007
+  },
+  "jev-r1": {
+   "cost_per_1k": 0.018613492109038735,
+   "p50_ms": 94.10000000000001,
+   "p95_ms": 158.75
+  },
+  "gliner-r1": {
+   "cost_per_1k": 0.0,
+   "p50_ms": 70.1,
+   "p95_ms": 120.35
+  }
+ },
+ "n_week1": 1036,
+ "n_week2": 1055,
+ "mcnemar": [
+  {
+   "a": "regex",
+   "b": "jev-r1",
+   "a_only": 10,
+   "b_only": 79,
+   "p": 1.87368886800412e-14,
+   "p_holm": 5.62106660401236e-14
+  },
+  {
+   "a": "regex",
+   "b": "gliner-r1",
+   "a_only": 267,
+   "b_only": 215,
+   "p": 0.020084878581287834,
+   "p_holm": 0.020084878581287834
+  },
+  {
+   "a": "jev-r1",
+   "b": "gliner-r1",
+   "a_only": 259,
+   "b_only": 138,
+   "p": 1.2890083290900609e-09,
+   "p_holm": 2.5780166581801218e-09
+  }
+ ]
+}

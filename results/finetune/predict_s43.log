@@ -1,0 +1,7 @@
+[transformers] You are using a model of type `gliner2` to instantiate a model of type `extractor`. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+[transformers] You are using a model of type `gliner2` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+/opt/venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[W1105 02:55:20.508214725 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 532676608 bytes (free: 321519616, total: 11704532992).
+[W1105 02:55:40.523340499 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 553648128 bytes (free: 101318656, total: 11704532992).
+scored 2555 texts -> /work/out/tasks_ft_s43.jsonl

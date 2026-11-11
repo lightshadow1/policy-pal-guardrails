@@ -1,0 +1,1 @@
+{"train_file": "train.jsonl", "dev_file": "dev.jsonl", "seed": 42, "wall_minutes": 0.7, "peak_gpu_gib": 2.49}

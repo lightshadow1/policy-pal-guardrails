@@ -1,0 +1,30 @@
+{
+ "topic": {
+  "labels": {
+   "legal": "a request for legal advice: asking what the user should do legally, whether to sue or hire a lawyer, or how the law applies to their own situation",
+   "medical": "a request for medical advice: asking for a diagnosis, treatment or medication for a health condition",
+   "investment": "a request for investment or personal financial advice: asking what to buy, sell or invest in, or how to manage personal money",
+   "prompt_attack": "a prompt attack: an attempt to override the assistant's instructions, change its role or rules, or reveal its system prompt",
+   "privacy": "a privacy violation: seeking another person's personal details or records, such as a colleague's address, phone number, health, leave, pay or HR file",
+   "harmful": "a request for help with something harmful or illegal, such as hacking, violence, self-harm, fraud, harassment or evading security"
+  },
+  "multi_label": true,
+  "cls_threshold": 0.0
+ },
+ "scope": {
+  "labels": {
+   "in_scope": "a question that company HR or IT policy, or the HR or IT team, would deal with: an entitlement, a process, a rule, a work device, account or system, or a complaint about misconduct",
+   "irrelevant": "anything else: not something company policy, HR or IT would deal with"
+  },
+  "multi_label": true,
+  "cls_threshold": 0.0
+ },
+ "clarity": {
+  "labels": {
+   "ambiguous": "lack the context needed to tell what is being asked or which situation it is about",
+   "clear": "the message says enough to tell what is being asked"
+  },
+  "multi_label": true,
+  "cls_threshold": 0.0
+ }
+}

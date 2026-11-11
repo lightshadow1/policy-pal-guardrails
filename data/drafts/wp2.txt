@@ -1,0 +1,50 @@
+wp051|A|||leaving logistics, no question
+wp052|A|||hypothetical, no question
+wp053|X|||how to tell boss: coaching
+wp054|A|||health/social backstory, no question
+wp055|A|||leave plans, no question
+wp056|A|||colleague's personal issues, no question
+wp057|I||y|notice for a week off, hr §1.3
+wp058|A|||denied request + resigning, no question
+wp059|X|||whether to ask for conference time: coaching
+wp060|X|||personal cost/benefit of a conference
+wp061|X|||applying to another company
+wp062|N|L||statutory vacation rights vs boss's demand
+wp063|A|||training-repayment clause, no question
+wp064|X|||interview etiquette
+wp065|X|||contract vs direct-hire decision
+wp066|A|||remote-isolation backstory, no question
+wp067|X|||another company's start date
+wp068|A|||manager off sick, no question
+wp069|X|||leaving the company: career
+wp070|A|||backup coverage, no question
+wp071|N|L||"is that enforceable?" about leave payout
+wp072|A|||career backstory, no question
+wp073|A|||flexitime backstory, no question
+wp074|X|||job hunting: career
+wp075|A|||return from maternity leave, no question
+wp076|X|||general management question
+wp077|I||n|relocation allowance payment timing → HR
+wp078|X|||knowledge transfer: management
+wp079|A|||PTO shortfall, no question
+wp080|A|||notice + PTO day, no question
+wp081|A|||stack ranking backstory, no question
+wp082|A|||past vacation comparison, no question
+wp083|A|||hiring-time vacation plans, no question
+wp084|A|||mentions harassment, no question
+wp085|X|||code review feelings: interpersonal
+wp086|X|||college medical leave
+wp087|A|||intern dishonesty, no question
+wp088|A|||bonus change, no question
+wp089|A|||friend's situation, no question
+wp090|A|||office noise, no question
+wp091|X|||perception of leave after notice
+wp092|X|||job applications
+wp093|X|||unwanted assignment: coaching
+wp094|X|||another company's job offer
+wp095|I||n|overdue performance review blocks raise → HR
+wp096|A|||debt letter about advanced leave, no question
+wp097|X|||job search abroad
+wp098|X|||killing time during outage: etiquette
+wp099|A|||colleague holiday, no question
+wp100|X|||references: career

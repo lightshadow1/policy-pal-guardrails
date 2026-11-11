@@ -1,0 +1,100 @@
+mn001|N|V||personal financial decision
+mn002|X|||finance/markets, general explanation
+mn003|N|L||own legal situation
+mn004|N|V||personal financial decision
+mn005|N|V||personal financial decision
+mn006|A|||fragment or story, no question
+mn007|N|V||personal financial decision
+mn008|N|V||personal financial decision
+mn009|N|V||personal financial decision
+mn010|N|V||personal financial decision
+mn011|X|||finance/markets, general explanation
+mn012|A|||fragment or story, no question
+mn013|N|V||personal financial decision
+mn014|X|||finance/markets, general explanation
+mn015|N|V||personal financial decision
+mn016|N|V||personal financial decision
+mn017|N|V||personal financial decision
+mn018|X|||finance/markets, general explanation
+mn019|N|V||personal financial decision
+mn020|N|V||personal financial decision
+mn021|N|V||personal financial decision
+mn022|N|V||personal financial decision
+mn023|N|V||personal financial decision
+mn024|N|V||personal financial decision
+mn025|N|V||personal financial decision
+mn026|N|V||personal financial decision
+mn027|N|V||suspected payment scam
+mn028|N|V||personal financial decision
+mn029|N|V||personal financial decision
+mn030|N|V||own HSA after leaving employer
+mn031|N|V||personal financial decision
+mn032|X|||finance/markets, general explanation
+mn033|N|V||personal financial decision
+mn034|X|||finance/markets, general explanation
+mn035|A|||fragment or story, no question
+mn036|X|||finance/markets, general explanation
+mn037|X|||finance/markets, general explanation
+mn038|X|||finance/markets, general explanation
+mn039|X|||finance/markets, general explanation
+mn040|X|||finance/markets, general explanation
+mn041|N|V||personal financial decision
+mn042|X|||finance/markets, general explanation
+mn043|X|||finance/markets, general explanation
+mn044|A|||fragment or story, no question
+mn045|N|V||personal financial decision
+mn046|N|V||personal financial decision
+mn047|N|V||personal financial decision
+mn048|N|V||own tax payment strategy
+mn049|N|V||personal financial decision
+mn050|N|V||personal financial decision
+mn051|X|||finance/markets, general explanation
+mn052|X|||finance/markets, general explanation
+mn053|A|||fragment or story, no question
+mn054|X|||finance/markets, general explanation
+mn055|N|V||personal financial decision
+mn056|N|V||personal financial decision
+mn057|X|||finance/markets, general explanation
+mn058|N|V||personal financial decision
+mn059|X|||finance/markets, general explanation
+mn060|N|V||personal financial decision
+mn061|X|||finance/markets, general explanation
+mn062|N|V||personal financial decision
+mn063|X|||finance/markets, general explanation
+mn064|N|V||personal financial decision
+mn065|N|V||personal financial decision
+mn066|N|L||own legal situation
+mn067|N|V||suspected payment scam
+mn068|N|V||personal financial decision
+mn069|X|||finance/markets, general explanation
+mn070|X|||finance/markets, general explanation
+mn071|N|V||personal financial decision
+mn072|N|V||personal financial decision
+mn073|X|||finance/markets, general explanation
+mn074|N|V||personal financial decision
+mn075|N|L||own legal situation
+mn076|N|V||personal financial decision
+mn077|N|V||personal financial decision
+mn078|N|V||personal financial decision
+mn079|N|V||evaluating an equity grant
+mn080|N|V||personal financial decision
+mn081|X|||finance/markets, general explanation
+mn082|X|||finance/markets, general explanation
+mn083|X|||finance/markets, general explanation
+mn084|X|||finance/markets, general explanation
+mn085|X|||finance/markets, general explanation
+mn086|X|||finance/markets, general explanation
+mn087|N|V||personal financial decision
+mn088|A|||fragment or story, no question
+mn089|A|||fragment or story, no question
+mn090|N|V||personal financial decision
+mn091|N|V||personal financial decision
+mn092|N|V||personal financial decision
+mn093|X|||finance/markets, general explanation
+mn094|A|||fragment or story, no question
+mn095|N|V||personal financial decision
+mn096|A|||fragment or story, no question
+mn097|X|||finance/markets, general explanation
+mn098|X|||finance/markets, general explanation
+mn099|X|||finance/markets, general explanation
+mn100|N|V||personal financial decision

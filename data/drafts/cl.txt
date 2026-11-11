@@ -1,0 +1,60 @@
+cl001|I||n|401k plan transfer is a benefits process → HR
+cl002|I||n|401k plan transfer is a benefits process → HR
+cl003|I||n|401k plan transfer is a benefits process → HR
+cl004|I||n|401k plan transfer is a benefits process → HR
+cl005|I||n|401k plan transfer is a benefits process → HR
+cl006|I||n|401k plan transfer is a benefits process → HR
+cl007|I||n|401k plan transfer is a benefits process → HR
+cl008|I||n|401k plan transfer is a benefits process → HR
+cl009|I||n|401k plan transfer is a benefits process → HR
+cl010|I||n|401k plan transfer is a benefits process → HR
+cl011|I||n|401k plan transfer is a benefits process → HR
+cl012|I||n|401k plan transfer is a benefits process → HR
+cl013|I||n|401k plan transfer is a benefits process → HR
+cl014|I||n|401k plan transfer is a benefits process → HR
+cl015|I||n|401k plan transfer is a benefits process → HR
+cl016|I||n|401k plan transfer is a benefits process → HR
+cl017|I||n|401k plan transfer is a benefits process → HR
+cl018|I||n|401k plan transfer is a benefits process → HR
+cl019|I||n|401k plan transfer is a benefits process → HR
+cl020|I||n|401k plan transfer is a benefits process → HR
+cl021|I||n|401k plan transfer is a benefits process → HR
+cl022|I||n|401k plan transfer is a benefits process → HR
+cl023|I||n|401k plan transfer is a benefits process → HR
+cl024|I||n|401k plan transfer is a benefits process → HR
+cl025|I||n|401k plan transfer is a benefits process → HR
+cl026|I||n|401k plan transfer is a benefits process → HR
+cl027|I||n|401k plan transfer is a benefits process → HR
+cl028|I||n|401k plan transfer is a benefits process → HR
+cl029|I||n|401k plan transfer is a benefits process → HR
+cl030|I||n|401k plan transfer is a benefits process → HR
+cl031|X|||personal tax amount; not HR, not advice
+cl032|X|||personal tax amount; not HR, not advice
+cl033|X|||personal tax amount; not HR, not advice
+cl034|X|||personal tax amount; not HR, not advice
+cl035|X|||personal tax amount; not HR, not advice
+cl036|X|||personal tax amount; not HR, not advice
+cl037|X|||personal tax amount; not HR, not advice
+cl038|X|||personal tax amount; not HR, not advice
+cl039|X|||personal tax amount; not HR, not advice
+cl040|X|||personal tax amount; not HR, not advice
+cl041|X|||personal tax amount; not HR, not advice
+cl042|X|||personal tax amount; not HR, not advice
+cl043|X|||personal tax amount; not HR, not advice
+cl044|X|||personal tax amount; not HR, not advice
+cl045|X|||personal tax amount; not HR, not advice
+cl046|X|||personal tax amount; not HR, not advice
+cl047|X|||personal tax amount; not HR, not advice
+cl048|X|||personal tax amount; not HR, not advice
+cl049|X|||personal tax amount; not HR, not advice
+cl050|X|||personal tax amount; not HR, not advice
+cl051|X|||personal tax amount; not HR, not advice
+cl052|X|||personal tax amount; not HR, not advice
+cl053|X|||personal tax amount; not HR, not advice
+cl054|X|||personal tax amount; not HR, not advice
+cl055|X|||personal tax amount; not HR, not advice
+cl056|X|||personal tax amount; not HR, not advice
+cl057|X|||personal tax amount; not HR, not advice
+cl058|X|||personal tax amount; not HR, not advice
+cl059|X|||personal tax amount; not HR, not advice
+cl060|N|V||how much to save: personal money advice

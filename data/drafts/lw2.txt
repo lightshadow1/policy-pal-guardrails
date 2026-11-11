@@ -1,0 +1,50 @@
+lw051|X|||vicarious liability, academic
+lw052|X|||anecdote
+lw053|A|||fragment, no question
+lw054|N|L||own GDPR request
+lw055|N|L||legal issues in own commissioning
+lw056|N|L||own arrest warrant
+lw057|X|||incitement law, academic
+lw058|A|||setup, no question
+lw059|X|||civil procedure, academic
+lw060|N|L||must one obey an obstructed sign
+lw061|X|||trademark classes, academic
+lw062|X|||comparative criminal law
+lw063|X|||legal systems, academic
+lw064|A|||setup, no question
+lw065|N|L||own bank fraud
+lw066|N|L||own conversation being published
+lw067|X|||hypothetical firm
+lw068|X|||general curiosity about penalties
+lw069|X|||litigation costs, academic
+lw070|X|||hypothetical acquisition
+lw071|N|L||own online board game
+lw072|A|||policy quote, no question
+lw073|N|L||own consumer issue
+lw074|N|L||legality of employer asking vaccine proof
+lw075|N|L||own rental contract
+lw076|A|||setup, no question
+lw077|X|||news anecdote
+lw078|A|||no question
+lw079|N|L||what an F-1 student may legally earn
+lw080|X|||judicial power, academic
+lw081|X|||news
+lw082|X|||news
+lw083|X|||GDPR hypothetical, academic
+lw084|X|||trial procedure, academic
+lw085|A|||employer move, no question
+lw086|N|L||trademark risk for own company name
+lw087|N|L||GDPR for own app data
+lw088|A|||settlement setup, no question
+lw089|X|||NDA enforceability, academic
+lw090|X|||curiosity
+lw091|N|L||is a "free" advert legal
+lw092|X|||news
+lw093|X|||how to find a video's licence
+lw094|A|||partnership setup, no question
+lw095|X|||legal wording
+lw096|X|||tort law, academic
+lw097|N|L||campus enforcement against self
+lw098|N|L||what may one legally photograph
+lw099|X|||general copyright question
+lw100|A|||terms-of-use setup, no question

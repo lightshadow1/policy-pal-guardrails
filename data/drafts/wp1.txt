@@ -1,0 +1,50 @@
+wp001|A|||backstory only, no question
+wp002|X|||etiquette with a future employer
+wp003|I||n|retaliation after HR complaint → HR (misconduct)
+wp004|A|||remote-work backstory, no question
+wp005|A|||team backstory, no question
+wp006|A|||sick-leave backstory, no question
+wp007|A|||backstory, no question
+wp008|A|||scenario, question not stated
+wp009|A|||describes time off, no question
+wp010|I||n|treatment of a colleague on family leave → HR
+wp011|X|||another company's job offer
+wp012|A|||backstory, no question
+wp013|X|||perception / career coaching
+wp014|A|||past employer story, no question
+wp015|A|||backstory, no question
+wp016|I||n|HR's role in reviews; process question
+wp017|A|||possible mistreatment, no question
+wp018|I||y|business travel expenses, hr §3.5
+wp019|X|||partner's job elsewhere
+wp020|X|||office kitchen etiquette
+wp021|X|||Glassdoor review after leaving
+wp022|X|||interview coaching
+wp023|X|||university class team
+wp024|I||y|holiday days, hr §1.4
+wp025|A|||no content beyond setup
+wp026|A|||management backstory, no question
+wp027|X|||how to approach manager: coaching
+wp028|A|||review backstory, no question
+wp029|X|||resume
+wp030|A|||promotion backstory, no question
+wp031|X|||writing a self-review: coaching
+wp032|X|||filling an appraisal form: writing help
+wp033|A|||vacation backstory, no question
+wp034|X|||coaching on using leave considerately
+wp035|A|||termination story, no question
+wp036|X|||interpersonal: sick coworker
+wp037|X|||general business question
+wp038|A|||startup promises, no question
+wp039|A|||contractor story, no question
+wp040|A|||small-company backstory, no question
+wp041|A|||appraisal backstory, no question
+wp042|A|||job-switch backstory, no question
+wp043|A|||past job, no question
+wp044|A|||work phone story, no question
+wp045|X|||email etiquette
+wp046|X|||recruiters: career
+wp047|I||n|unused vacation payout on leaving → HR
+wp048|X|||what to tell manager: coaching
+wp049|A|||WFH arrangement, no question
+wp050|X|||social awkwardness about WFH

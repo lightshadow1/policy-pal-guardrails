@@ -1,0 +1,50 @@
+lw001|X|||international politics, academic
+lw002|N|L||own lease clause: amend before signing?
+lw003|X|||hypothetical audit, academic
+lw004|A|||fragment, no question
+lw005|A|||fragment, no question
+lw006|X|||jury selection, academic
+lw007|N|L||is it lawful to charge storage fees
+lw008|N|L||legality of rebroadcasting signals
+lw009|X|||hypothetical, academic
+lw010|N|L||own rights over optician photo
+lw011|A|||setup, no question
+lw012|N|L||own tenant dispute
+lw013|X|||liability in a news event, academic
+lw014|X|||court procedure, academic
+lw015|N|L||legality of own side business
+lw016|N|L||own consumer dispute
+lw017|X|||secession, academic
+lw018|N|L||legality of own conduct in a store
+lw019|N|L||own grant/PI dispute
+lw020|A|||statute quote, no question
+lw021|A|||statute quote, no question
+lw022|A|||jurisdiction note, no question
+lw023|N|L||data-protection duties for own system
+lw024|X|||constitutional, academic
+lw025|X|||legal history
+lw026|N|L||is own copying infringement
+lw027|X|||diplomatic immunity, academic
+lw028|X|||public trial commentary
+lw029|X|||bankruptcy, academic
+lw030|N|L||own consumer mediation
+lw031|X|||constitutional, academic
+lw032|N|L||former employer profit-sharing claim
+lw033|N|L||own green card status
+lw034|X|||trivia
+lw035|X|||courtroom anecdote
+lw036|A|||statute note, no question
+lw037|X|||patents, academic
+lw038|A|||client-hosting setup, no question
+lw039|N|L||own copyright takedown dispute
+lw040|X|||theoretical debate
+lw041|N|L||copyright on own photo
+lw042|N|L||GDPR duty to hand over a recording
+lw043|N|L||custody case
+lw044|X|||legal profession, academic
+lw045|X|||general legality question
+lw046|N|L||own DMCA dispute
+lw047|N|L||own incident: student spiked coffee
+lw048|X|||news commentary
+lw049|X|||site meta
+lw050|X|||corporate liability, academic

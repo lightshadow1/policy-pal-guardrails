@@ -1,0 +1,22 @@
+{
+ "jev": {
+  "legal": 0.63,
+  "medical": 0.69,
+  "investment": 0.74,
+  "prompt_attack": 0.28,
+  "privacy": 0.58,
+  "harmful": 0.24,
+  "in_scope": 0.53,
+  "ambiguous": 0.68
+ },
+ "gliner": {
+  "legal": 0.63916015625,
+  "medical": 0.386962890625,
+  "investment": 0.8896484375,
+  "prompt_attack": 0.35888671875,
+  "privacy": 0.5908203125,
+  "harmful": 0.646484375,
+  "in_scope": 0.3486328125,
+  "ambiguous": 0.61962890625
+ }
+}
